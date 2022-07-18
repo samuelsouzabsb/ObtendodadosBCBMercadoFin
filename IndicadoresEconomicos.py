@@ -4,7 +4,6 @@
     Horário recomendado: 01hs ('Madrugada')
     Frequência: Diário
     O que Faz??: Realiza conexão em algumas API's (Banco Central e Yahoo) e realiza uma raspagem de dados buscando um tabela dentro de um site.
-    Acessos necessários: "G" - //londres/root/Brasal Refrigerantes/Diretorios de trabalho/Custos e Orçamentos/Custos/Simulacao de Margem/Semanal/Bases
 
     Bibliotecas: pandas, yfinance, datetime
 
@@ -12,7 +11,7 @@
 import pandas as pd
 import yfinance as yf
 from datetime import datetime, timedelta
-caminhosaida = '//londres/root/Brasal Refrigerantes/Diretorios de trabalho/Custos e Orçamentos/Custos/Simulacao de Margem/Semanal/Bases/Indicadores Econômicos/'
+caminhosaida = 'Saída do sue arquivo'
 DataFim = datetime.today()
 DataInicio = datetime.today()-timedelta(3660)
 DataIBC = DataInicio.strftime('%m%d%Y')
